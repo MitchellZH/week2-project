@@ -33,13 +33,19 @@ class parkingGarage():
                     print("That ticket is invalid, please try again")
             
     def leaveGarage(self):
-        response = input("what is your")
+        response = input("what is your ticket number?")
         if response in self.takenTickets:
             self.tickets.append(response)
-        pass
-
+            self.parkingSpaces.append(len(self.tickets))
+        else: 
+            print("That ticket is invalid, please try again")
+       
     def runner(self):
-        pass
+        action = input("Enter 'Take' to take a ticket, 'Leave' to leave the garage, 'Pay' to pay: ")
+        while True:
+            self.takeTicket()
+            self.payForParking()
+            self.leaveGarage()
         
 garage = parkingGarage()
 
