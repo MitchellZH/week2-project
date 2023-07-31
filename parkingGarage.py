@@ -1,10 +1,9 @@
 # Start Your Code here
 class parkingGarage():
     def __init__(self):
-        self.tickets = ["ticket", "ticket", "ticket", "ticket", "ticket"],
+        self.tickets = ["ticket", "ticket", "ticket", "ticket", "ticket"], 
         self.parkingSpaces = ["space", "space", "space", "space", "space"],
-        self.currentTicke = {"paid": False}
-    
+        self.currentTicket = {"paid": False} 
     def takeTicket():
         pass
     
@@ -19,3 +18,4 @@ class parkingGarage():
 
 
     print("Thank You, have a nice day")
+
