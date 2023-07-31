@@ -46,5 +46,3 @@ garage = parkingGarage()
 garage.takeTicket()
 
 garage.payForParking()
-
-
