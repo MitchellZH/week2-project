@@ -42,3 +42,9 @@ When the project is completed, commit the final changes, sync all pull requests,
 
 ###### List group responsiblities below:
 ###### Provide name and approxamite line numbers where each person wrote their code
+
+Mitchell: Set up class instance attributes, takeTicket, and payForParking. also put the finishing touches on the leaveGarage. Lines 1-44
+
+Omar: Worked on the leaveGarage function. Lines 47-73
+
+Marcos: Worked on the runner function. Lines 76-92
